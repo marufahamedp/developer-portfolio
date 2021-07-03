@@ -8,10 +8,10 @@ body{
 h1{
     font-size: 50px;
 }
-h1 .orange-color{
+.orange-color{
     color: orange;
 }
-section{
+.container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,4 +39,31 @@ section{
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.shadowa{
+    box-shadow:  10px 10px 40px gray;
+    margin: 0 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 8px solid;
+    border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
+    border-image-slice: 1;
+}
+.shadowb{
+    box-shadow:  10px 10px 40px  gray;
+    margin: 0 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 8px solid;
+    border-image: linear-gradient(#00a2ff, #0c279f) 30;
+    border-image-slice: 1;
+}
+.footer{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#copyright{
+    text-align: center;
+    color: gray;
 }
